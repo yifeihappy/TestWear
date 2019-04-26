@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a14776.testwear.com.example.a14776.minput.MainActivity"
+    tools:deviceIds="wear_round">
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INPUT"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:id="@+id/btnISS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnPC"
+        android:layout_below="@+id/btnInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="ISS" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SW"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

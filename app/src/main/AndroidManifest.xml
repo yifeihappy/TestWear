@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a14776.testwear">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity android:name="com.example.a14776.testwear.MainActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.a14776.testwear.PCActivity"></activity>
+        <activity android:name="com.example.a14776.testwear.PCInputActivity"></activity>
+        <activity android:name="com.example.a14776.testwear.PCISSActivity"></activity>
+        <activity android:name="com.example.a14776.testwear.SWISSActivity"></activity>
+        <activity android:name="com.example.a14776.testwear.SWActivity"></activity>
+        <activity android:name="com.example.a14776.testwear.SWInputActivity"></activity>
+    </application>
+
+</manifest>
