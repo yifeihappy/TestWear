@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:gravity="center_horizontal"
-        android:text="MDial"
+        android:text="IP"
         android:textSize="24sp" />
 
 

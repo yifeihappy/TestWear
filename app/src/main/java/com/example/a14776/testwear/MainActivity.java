@@ -7,7 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
-
+// 击键输入，PC+smartwatch 和 smartwatch独立的应用
 public class MainActivity extends Activity {
 
     private Button btnPC;
